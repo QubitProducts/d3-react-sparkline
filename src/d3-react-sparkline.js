@@ -6,11 +6,15 @@ class Sparkline extends React.Component {
   static propTypes = {
     width: React.PropTypes.number,
     height: React.PropTypes.number,
-    data: React.PropTypes.array
+    data: React.PropTypes.array,
+    interpolation: React.PropTypes.oneOfType([
+      React.PropTypes.string,
+      React.PropTypes.function
+    ])
   }
 
   render () {
-    const {width, height, data} = this.props
+    const {width, height, data, interpolation} = this.props
 
     const el = d3.select(document.createElement('svg'))
       .prop(this.props)
@@ -27,6 +31,7 @@ class Sparkline extends React.Component {
     const line = d3.svg.line()
       .x((d, i) => x(i))
       .y((d) => y(d))
+      .interpolate(interpolation)
 
     el.append('path')
       .datum(data)

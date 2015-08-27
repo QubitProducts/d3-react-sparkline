@@ -23,7 +23,9 @@ If you're using this component as an end user you can simply import the componen
 <Sparkline width={180} height={60} data={[10, 16, 5, 22, 3, 11]} />
 ```
 
-And style it with something like this (presuming you set a `className` to `visitors`):
+You can also specify `interpolation` as [one of D3s own][interpos] or a custom function. It maps directly to the `.interpolate()` method within the D3 API.
+
+Style it with something like this (presuming you set a `className` to `visitors`):
 
 ```css
 .visitors .Sparkline {
@@ -35,3 +37,4 @@ And style it with something like this (presuming you set a `className` to `visit
 
 [d3]: http://d3js.org/
 [d3-react]: https://github.com/Olical/d3-react
+[interpos]: http://bl.ocks.org/mbostock/4342190
