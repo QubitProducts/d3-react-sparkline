@@ -1,4 +1,4 @@
-# d3-react-sparkline
+# d3-react-sparkline [![npm version](https://badge.fury.io/js/d3-react-sparkline.svg)](http://badge.fury.io/js/d3-react-sparkline) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 A simple component to render a sparkline with [D3][] using the [d3-react][] plugin.
 
