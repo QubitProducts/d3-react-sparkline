@@ -10,21 +10,21 @@ class Sparkline extends React.Component {
   }
 
   render () {
-    let {width, height, data} = this.props
+    const {width, height, data} = this.props
 
-    let el = d3.select(document.createElement('svg'))
+    const el = d3.select(document.createElement('svg'))
       .prop(this.props)
       .prop('data', null)
 
-    let x = d3.scale.linear()
+    const x = d3.scale.linear()
       .range([0, width])
       .domain(d3.extent(data, (d, i) => i))
 
-    let y = d3.scale.linear()
+    const y = d3.scale.linear()
       .range([height, 0])
       .domain(d3.extent(data, (d) => d))
 
-    let line = d3.svg.line()
+    const line = d3.svg.line()
       .x((d, i) => x(i))
       .y((d) => y(d))
 
