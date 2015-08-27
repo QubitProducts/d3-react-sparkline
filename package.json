@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qubitdigital/d3-react-sparkline.git"
+    "url": "git+https://github.com/QubitProducts/d3-react-sparkline.git"
   },
   "keywords": [
     "react",
@@ -20,9 +20,9 @@
   "author": "Qubit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qubitdigital/d3-react-sparkline/issues"
+    "url": "https://github.com/QubitProducts/d3-react-sparkline/issues"
   },
-  "homepage": "https://github.com/qubitdigital/d3-react-sparkline#readme",
+  "homepage": "https://github.com/QubitProducts/d3-react-sparkline#readme",
   "devDependencies": {
     "babel-core": "^5.8.22",
     "babel-eslint": "^4.1.0",
