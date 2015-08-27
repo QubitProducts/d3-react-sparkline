@@ -23,8 +23,10 @@ If you're using this component as an end user you can simply import the componen
 And style it with something like this (presuming you set a `className` to `visitors`):
 
 ```css
-.visitors line {
-  stroke: blue;
+.visitors .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
 }
 ```
 
