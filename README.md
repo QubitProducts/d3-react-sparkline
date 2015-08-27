@@ -2,7 +2,7 @@
 
 A simple component to render a sparkline with [D3][] using the [d3-react][] plugin.
 
-![Example Line](https://raw.github.com/qubitdigital/react-line/master/line.png)
+![Example Line](/../master/line.png?raw=true)
 
 ## Usage
 
