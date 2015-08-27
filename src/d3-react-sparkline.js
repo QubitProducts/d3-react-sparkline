@@ -2,7 +2,7 @@ import React from 'react'
 import d3 from 'd3'
 import 'd3-react'
 
-class Line extends React.Component {
+class Sparkline extends React.Component {
   static propTypes = {
     width: React.PropTypes.number,
     height: React.PropTypes.number,
@@ -31,8 +31,8 @@ class Line extends React.Component {
     el.append('path')
       .datum(data)
       .prop({
-        key: 'line',
-        className: 'line',
+        key: 'sparkline',
+        className: 'sparkline',
         d: line
       })
 
@@ -40,4 +40,4 @@ class Line extends React.Component {
   }
 }
 
-export default Line
+export default Sparkline

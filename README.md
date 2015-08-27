@@ -1,4 +1,4 @@
-# react-line
+# d3-react-sparkline
 
 A simple component to render a sparkline with [D3][] using the [d3-react][] plugin.
 
@@ -20,13 +20,13 @@ make start
 If you're using this component as an end user you can simply import the component and give it some data.
 
 ```javascript
-<Line width={180} height={60} data={[10, 16, 5, 22, 3, 11]} />
+<Sparkline width={180} height={60} data={[10, 16, 5, 22, 3, 11]} />
 ```
 
 And style it with something like this (presuming you set a `className` to `visitors`):
 
 ```css
-.visitors .line {
+.visitors .Sparkline {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px;
