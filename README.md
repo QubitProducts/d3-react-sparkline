@@ -13,6 +13,7 @@ If you're working on this repository you can use `make` to set everything up.
 make bootstrap
 
 # Start the development server
+# http://localhost:3000
 make start
 ```
 
