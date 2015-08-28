@@ -28,7 +28,7 @@ You can also specify `interpolation` as [one of D3s own][interpos] or a custom f
 Style it with something like this (presuming you set a `className` to `visitors`):
 
 ```css
-.visitors .Sparkline {
+.visitors .sparkline {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px;
