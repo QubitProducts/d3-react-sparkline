@@ -1,6 +1,6 @@
 {
   "name": "d3-react-sparkline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple component to render a sparkline with D3",
   "main": "src/d3-react-sparkline.js",
   "scripts": {
