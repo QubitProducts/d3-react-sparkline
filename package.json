@@ -1,6 +1,6 @@
 {
   "name": "d3-react-sparkline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple component to render a sparkline with D3",
   "main": "src/d3-react-sparkline.js",
   "scripts": {
@@ -30,12 +30,16 @@
     "react-hot-loader": "^1.2.9",
     "standard": "^5.1.0",
     "webpack": "^1.12.0",
-    "webpack-dev-server": "^1.10.1"
+    "webpack-dev-server": "^1.10.1",
+    "react": "^0.13.3",
+    "d3": "^3.5.6"
+  },
+  "peerDependencies": {
+    "react": "0.x",
+    "d3": "*"
   },
   "dependencies": {
-    "d3": "^3.5.6",
-    "d3-react": "^1.0.1",
-    "react": "^0.13.3"
+    "react-faux-dom": "^1.0.0"
   },
   "standard": {
     "parser": "babel-eslint"
