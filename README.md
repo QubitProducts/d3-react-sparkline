@@ -1,6 +1,6 @@
 # d3-react-sparkline [![npm version](https://badge.fury.io/js/d3-react-sparkline.svg)](http://badge.fury.io/js/d3-react-sparkline) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-A simple component to render a sparkline with [D3][] using the [d3-react][] plugin.
+A simple component to render a sparkline with [D3][] using [react-faux-dom][].
 
 ![Example Line](/../master/line.png?raw=true)
 
@@ -36,5 +36,5 @@ Style it with something like this (presuming you set a `className` to `visitors`
 ```
 
 [d3]: http://d3js.org/
-[d3-react]: https://github.com/Olical/d3-react
+[react-faux-dom]: https://github.com/Olical/react-faux-dom
 [interpos]: http://bl.ocks.org/mbostock/4342190

@@ -1,6 +1,6 @@
-import React from 'react'
 import d3 from 'd3'
-import 'd3-react'
+import React from 'react'
+import ReactFauxDOM from 'react-faux-dom'
 
 class Sparkline extends React.Component {
   static propTypes = {
@@ -16,9 +16,9 @@ class Sparkline extends React.Component {
   render () {
     const {width, height, data, interpolation} = this.props
 
-    const el = d3.select(document.createElement('svg'))
-      .prop(this.props)
-      .prop('data', null)
+    const el = d3.select(ReactFauxDOM.createElement('svg'))
+      .attr(this.props)
+      .attr('data', null)
 
     const x = d3.scale.linear()
       .range([0, width])
@@ -35,13 +35,13 @@ class Sparkline extends React.Component {
 
     el.append('path')
       .datum(data)
-      .prop({
+      .attr({
         key: 'sparkline',
         className: 'sparkline',
         d: line
       })
 
-    return el.toReact()
+    return el.node().toReact()
   }
 }
 
