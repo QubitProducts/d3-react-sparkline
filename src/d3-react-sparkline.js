@@ -11,7 +11,7 @@ class Sparkline extends React.Component {
       React.PropTypes.string,
       React.PropTypes.function
     ])
-  }
+  };
 
   render () {
     const {width, height, data, interpolation} = this.props
