@@ -46,5 +46,5 @@ Find more details on our [Engineering site][eng]. Don’t have an up to date CV?
 [d3]: http://d3js.org/
 [react-faux-dom]: https://github.com/Olical/react-faux-dom
 [interpos]: http://bl.ocks.org/mbostock/4342190
-[qubit]: https://qubit.com
+[qubit]: http://www.qubit.com
 [eng]: https://eng.qubit.com
