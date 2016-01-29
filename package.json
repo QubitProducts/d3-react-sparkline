@@ -5,7 +5,7 @@
   "main": "dist/d3-react-sparkline.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node ./example/server.js",
     "compile": "babel -d dist/ src/",
     "prepublish": "npm run compile"
   },
