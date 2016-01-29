@@ -2,10 +2,12 @@
   "name": "d3-react-sparkline",
   "version": "1.0.3",
   "description": "A simple component to render a sparkline with D3",
-  "main": "src/d3-react-sparkline.js",
+  "main": "dist/d3-react-sparkline.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "compile": "babel -d dist/ src/",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   },
   "homepage": "https://github.com/QubitProducts/d3-react-sparkline#readme",
   "devDependencies": {
+    "babel-cli": "^6.4.5",
     "babel-core": "^6.4.5",
     "babel-eslint": "^5.0.0-beta6",
     "babel-loader": "^6.2.1",
