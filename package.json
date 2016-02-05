@@ -2,11 +2,11 @@
   "name": "d3-react-sparkline",
   "version": "1.0.3",
   "description": "A simple component to render a sparkline with D3",
-  "main": "dist/d3-react-sparkline.js",
+  "main": "lib/d3-react-sparkline.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./example/server.js",
-    "compile": "babel -d dist/ src/",
+    "compile": "babel -d lib/ src/",
     "prepublish": "npm run compile"
   },
   "repository": {
