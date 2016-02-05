@@ -27,4 +27,4 @@ build/Release
 node_modules
 
 # Webpack output
-dist
+lib
