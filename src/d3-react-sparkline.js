@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import d3 from 'd3'
 import React from 'react'
 import ReactFauxDOM from 'react-faux-dom'
