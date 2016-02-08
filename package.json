@@ -42,8 +42,11 @@
     "webpack-dev-server": "^1.14.1"
   },
   "peerDependencies": {
-    "react": "0.x",
-    "d3": "*"
+    "babel-polyfill": "6",
+    "react": "^0.14.7",
+    "d3": "3"
+  },
+  "peerDependencies": {
   },
   "dependencies": {
     "react-faux-dom": "^2.1.1"
