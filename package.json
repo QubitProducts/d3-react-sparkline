@@ -42,11 +42,15 @@
     "webpack-dev-server": "^1.14.1"
   },
   "peerDependencies": {
-    "react": "0.x",
+    "react": "*",
     "d3": "*"
   },
   "dependencies": {
-    "react-faux-dom": "^2.1.1"
+    "babel-eslint": "^6.0.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-faux-dom": "^2.5.0",
+    "standard": "^7.1.2"
   },
   "standard": {
     "parser": "babel-eslint"
